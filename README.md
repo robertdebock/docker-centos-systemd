@@ -10,7 +10,8 @@ This repository has multiple branches that relate to Fedora versions.
 
 |Branch |CentOS Version|Docker image tag|
 |-------|--------------|----------------|
-|master |latest (7)    |latest          |
+|master |latest (8)    |latest          |
+|7      |7             |7               |
 
 Pull strategy
 -------------
