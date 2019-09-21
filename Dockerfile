@@ -1,4 +1,4 @@
-FROM centos:7
+FROM centos:8
 LABEL maintainer="Robert de Bock"
 ENV container=docker
 
