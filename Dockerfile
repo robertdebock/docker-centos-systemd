@@ -1,5 +1,7 @@
 FROM centos:7
-LABEL maintainer="Robert de Bock"
+
+LABEL maintainer="Robert de Bock <robert@meinit.nl>"
+
 ENV container=docker
 
 RUN cd /lib/systemd/system/sysinit.target.wants/ ; \
