@@ -3,6 +3,8 @@ Docker CentOS Systemd
 
 This Dockerfile can build containers capable to use systemd.
 
+[![centos build status](https://img.shields.io/docker/cloud/build/robertdebock/centos.svg)](https://hub.docker.com/repository/docker/robertdebock/centos)
+
 Branches
 --------
 
