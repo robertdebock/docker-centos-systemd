@@ -12,7 +12,7 @@ This repository has multiple branches that relate to CentOS versions.
 
 |Branch |CentOS Version|Docker image tag|
 |-------|--------------|----------------|
-|master |latest (8)    |latest          |
+|master |latest (8)    |8               |
 |7      |7             |7               |
 
 Pull strategy
