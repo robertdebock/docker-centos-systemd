@@ -1,4 +1,4 @@
-FROM centos
+FROM centos:8
 
 LABEL maintainer="Robert de Bock <robert@meinit.nl>"
 
@@ -15,4 +15,5 @@ RUN cd /lib/systemd/system/sysinit.target.wants/ ; \
     rm -f /lib/systemd/system/anaconda.target.wants/*
 
 VOLUME ["/sys/fs/cgroup"]
+
 CMD ["/sbin/init"]
